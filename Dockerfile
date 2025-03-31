@@ -7,7 +7,7 @@ ARG Password
 ARG re
 ENV re=${re}
 ENV Password=${Password}
-ENV Ngrok=${Ngrok}
+ENV Ngrok=${2Kztq5PVX07zr6x69DnHUDmR0L9_4rSxegWSRAZqkcjrZdJkt}
 RUN apt install ssh wget unzip -y > /dev/null 2>&1
 RUN wget -O ngrok.zip https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.zip > /dev/null 2>&1
 RUN unzip ngrok.zip
